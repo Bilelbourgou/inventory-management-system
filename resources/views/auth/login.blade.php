@@ -14,9 +14,9 @@
         color-scheme: light;
         font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
         --surface: #ffffff;
-        --primary: #4c44ec;
-        --primary-dark: #312fab;
-        --primary-soft: rgba(76,68,236,0.12);
+        --primary: #B22222;
+        --primary-dark: #8B0000;
+        --primary-soft: rgba(178,34,34,0.12);
         --text: #1f2937;
         --text-muted: #6b7280;
         --border: #e5e7eb;
@@ -45,7 +45,7 @@
 
       /* HERO SIDE */
       .auth-hero {
-        background: linear-gradient(140deg, #7a4dff 0%, #6237ff 45%, #4f2bf8 100%);
+        background: linear-gradient(140deg, #B22222 0%, #8B0000 45%, #600000 100%);
         color: #fff;
         display: flex;
         align-items: center;
@@ -143,7 +143,7 @@
         padding: 0.9rem;
         border-radius: 999px;
         border: none;
-        background: linear-gradient(135deg, #7c3aed, #4f46e5);
+        background: linear-gradient(135deg, #B22222, #8B0000);
         color: #fff;
         font-size: 1rem;
         font-weight: 600;

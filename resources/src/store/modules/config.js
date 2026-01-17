@@ -3,7 +3,7 @@ const state = {
     dark: false,
     light: true,
     semi_dark: false,
-    theme_color: 'lite-purple',
+    theme_color: 'lite-red',
     layout: 'large-sidebar',
     rtl: false,
   },
