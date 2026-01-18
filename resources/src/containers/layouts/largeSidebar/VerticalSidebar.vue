@@ -1427,19 +1427,20 @@ export default {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  object-fit: contain;
+  filter: invert(21%) sepia(85%) saturate(3025%) hue-rotate(346deg) brightness(88%) contrast(101%);
 }
 
 .logo-placeholder {
-  color: white;
-  font-size: 22px;
-  font-weight: 700;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   width: 100%;
   height: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
-  border-radius: 12px;
+  background: #B22222;
+  color: white;
+  font-weight: bold;
+  font-size: 1.2rem;
 }
 
 .company-name {
@@ -1480,11 +1481,11 @@ export default {
 
 .nav-link:hover {
   background: #f7f7f7;
-  color: #663399;
+  color: #B22222;
 }
 
 .nav-item.active > .nav-link {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #B22222 0%, #8B0000 100%);
   color: white;
 }
 
@@ -1548,14 +1549,14 @@ export default {
   transform: translateY(-50%);
   width: 3px;
   height: 0;
-  background: #663399;
+  background: #B22222;
   border-radius: 0 2px 2px 0;
   transition: height 0.3s;
 }
 
 .submenu-link:hover {
-  background: rgba(102, 51, 153, 0.08);
-  color: #663399;
+  background: rgba(178, 34, 34, 0.08);
+  color: #B22222;
   padding-left: 16px;
 }
 
@@ -1564,9 +1565,9 @@ export default {
 }
 
 .submenu-link.router-link-active {
-  color: #663399;
+  color: #B22222;
   font-weight: 600;
-  background: rgba(102, 51, 153, 0.1);
+  background: rgba(178, 34, 34, 0.1);
   padding-left: 16px;
 }
 
@@ -1586,7 +1587,7 @@ export default {
   list-style: none;
   padding: 8px 0 8px 20px;
   margin: 4px 0;
-  border-left: 2px solid rgba(102, 51, 153, 0.15);
+  border-left: 2px solid rgba(178, 34, 34, 0.15);
 }
 
 .nested-link {
@@ -1601,14 +1602,14 @@ export default {
 }
 
 .nested-link:hover {
-  color: #663399;
-  background: rgba(102, 51, 153, 0.05);
+  color: #B22222;
+  background: rgba(178, 34, 34, 0.05);
   padding-left: 16px;
 }
 
 .nested-link.router-link-active {
-  color: #663399;
-  background: rgba(102, 51, 153, 0.1);
+  color: #B22222;
+  background: rgba(178, 34, 34, 0.1);
   font-weight: 600;
   padding-left: 16px;
 }
@@ -1689,21 +1690,21 @@ body.dark-theme .submenu-link {
 }
 
 body.dark-theme .submenu-link::before {
-  background: #764ba2;
+  background: #8B0000;
 }
 
 body.dark-theme .submenu-link:hover {
-  background: rgba(118, 75, 162, 0.15);
+  background: rgba(139, 0, 0, 0.15);
   color: #fff;
 }
 
 body.dark-theme .submenu-link.router-link-active {
-  background: rgba(118, 75, 162, 0.25);
+  background: rgba(139, 0, 0, 0.25);
   color: #fff;
 }
 
 body.dark-theme .nested-submenu {
-  border-left-color: rgba(118, 75, 162, 0.3);
+  border-left-color: rgba(139, 0, 0, 0.3);
 }
 
 body.dark-theme .nested-link {
@@ -1711,12 +1712,12 @@ body.dark-theme .nested-link {
 }
 
 body.dark-theme .nested-link:hover {
-  background: rgba(118, 75, 162, 0.1);
+  background: rgba(139, 0, 0, 0.1);
   color: #fff;
 }
 
 body.dark-theme .nested-link.router-link-active {
-  background: rgba(118, 75, 162, 0.2);
+  background: rgba(139, 0, 0, 0.2);
   color: #fff;
 }
 

@@ -219,8 +219,8 @@ export default {
 .vertical-top-nav button.dropdown-toggle-no-caret:focus,
 .vertical-top-nav button.dropdown-toggle-no-caret:active {
   background: #f9fafb !important;
-  color: #663399 !important;
-  border-color: #663399 !important;
+  color: #B22222 !important;
+  border-color: #B22222 !important;
   box-shadow: none !important;
   outline: none !important;
 }
@@ -248,7 +248,7 @@ body.dark-theme .vertical-top-nav button.dropdown-toggle-no-caret:hover,
 body.dark-theme .vertical-top-nav button.dropdown-toggle-no-caret:focus,
 body.dark-theme .vertical-top-nav button.dropdown-toggle-no-caret:active {
   background: #2d2d44 !important;
-  border-color: #764ba2 !important;
+  border-color: #8B0000 !important;
   color: #fff !important;
 }
 
@@ -329,7 +329,7 @@ body.dark-theme .vertical-top-nav .dropdown-menu {
 }
 
 .menu-toggle:hover {
-  background: rgba(102, 51, 153, 0.05);
+  background: rgba(178, 34, 34, 0.05);
 }
 
 .menu-toggle div {
@@ -342,7 +342,7 @@ body.dark-theme .vertical-top-nav .dropdown-menu {
 }
 
 .menu-toggle:hover div {
-  background: #663399;
+  background: #B22222;
 }
 
 .menu-toggle:focus,
@@ -389,8 +389,8 @@ body.dark-theme .vertical-top-nav .dropdown-menu {
 
 .nav-icon-btn:hover {
   background: #f9fafb;
-  color: #663399;
-  border-color: #663399;
+  color: #B22222;
+  border-color: #B22222;
 }
 
 .badge-container {
@@ -512,13 +512,13 @@ body.dark-theme .vertical-top-nav .dropdown-menu {
 }
 
 .notif-content a {
-  color: #663399;
+  color: #B22222;
   text-decoration: none;
   display: block;
 }
 
 .notif-content a:hover {
-  color: #5a2a80;
+  color: #8B0000;
 }
 
 .user-dropdown-menu {
@@ -542,7 +542,7 @@ body.dark-theme .vertical-top-nav .dropdown-menu {
 
 .dropdown-item:hover {
   background: #f5f5f5;
-  color: #663399;
+  color: #B22222;
 }
 
 /* RTL Support */
@@ -567,7 +567,7 @@ body.dark-theme .menu-toggle div {
 }
 
 body.dark-theme .menu-toggle:hover {
-  background: rgba(118, 75, 162, 0.1);
+  background: rgba(139, 0, 0, 0.1);
 }
 
 body.dark-theme .menu-toggle:hover div {
@@ -582,7 +582,7 @@ body.dark-theme .nav-icon-btn {
 
 body.dark-theme .nav-icon-btn:hover {
   background: #2d2d44;
-  border-color: #764ba2;
+  border-color: #8B0000;
   color: #fff;
 }
 
@@ -607,11 +607,11 @@ body.dark-theme .notif-content p {
 }
 
 body.dark-theme .notif-content a {
-  color: #a78bfa;
+  color: #ef4444;
 }
 
 body.dark-theme .notif-content a:hover {
-  color: #c4b5fd;
+  color: #fca5a5;
 }
 
 body.dark-theme .dropdown-header {
@@ -695,9 +695,9 @@ body.dark-theme .dropdown-item:hover {
     align-items: center;
     justify-content: center;
     gap: 0;
-    background: #8b5cf6;
+    background: #B22222;
     color: #fff;
-    border: 1px solid #8b5cf6;
+    border: 1px solid #B22222;
   }
 
   .nav-right .btn.btn-primary i {

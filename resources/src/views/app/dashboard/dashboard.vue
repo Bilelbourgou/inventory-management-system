@@ -504,7 +504,7 @@ export default {
               toolbar: { show: true },
               fontFamily: "inherit"
             },
-            colors: ["#8B5CF6", "#DDD6FE"],
+            colors: ["#B22222", "#FCA5A5"],
             plotOptions: {
               bar: {
                 horizontal: false,
@@ -612,7 +612,7 @@ export default {
               fontFamily: "inherit"
             },
             labels: productData.map(item => item.name),
-            colors: ["#8B5CF6", "#A78BFA", "#C4B5FD", "#DDD6FE", "#EDE9FE"],
+            colors: ["#8B0000", "#B22222", "#EF4444", "#F87171", "#FECaca"],
             legend: {
               position: "bottom",
               fontSize: "12px"
@@ -658,7 +658,7 @@ export default {
               fontFamily: "inherit"
             },
             labels: customerData.map(item => item.name),
-            colors: ["#8B5CF6", "#A78BFA", "#C4B5FD", "#DDD6FE", "#EDE9FE"],
+            colors: ["#8B0000", "#B22222", "#EF4444", "#F87171", "#FECaca"],
             legend: {
               position: "bottom",
               fontSize: "12px"
@@ -814,7 +814,7 @@ export default {
 <style scoped>
 /* Dashboard Header */
 .dashboard-header {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #B22222 0%, #8B0000 100%);
   padding: 2rem;
   border-radius: 12px;
   color: white;
@@ -859,8 +859,8 @@ export default {
 }
 
 .date-picker-btn:hover {
-  border-color: #8B5CF6;
-  color: #8B5CF6;
+  border-color: #B22222;
+  color: #B22222;
 }
 
 .quick-wrap .btn {
@@ -871,7 +871,7 @@ export default {
 
 .quick-wrap .btn:hover {
   transform: translateY(-2px);
-  box-shadow: 0 4px 8px rgba(139, 92, 246, 0.2);
+  box-shadow: 0 4px 8px rgba(178, 34, 34, 0.2);
 }
 
 /* Stat Cards */
@@ -904,7 +904,7 @@ export default {
 }
 
 .sales-card .stat-card-icon {
-  background: linear-gradient(135deg, #8B5CF6 0%, #A78BFA 100%);
+  background: linear-gradient(135deg, #B22222 0%, #EF4444 100%);
   color: white;
 }
 
@@ -942,7 +942,7 @@ export default {
 }
 
 .stat-card-link {
-  color: #8B5CF6;
+  color: #B22222;
   font-size: 0.875rem;
   text-decoration: none;
   font-weight: 500;
@@ -953,7 +953,7 @@ export default {
 }
 
 .stat-card-link:hover {
-  color: #6D28D9;
+  color: #8B0000;
   text-decoration: none;
 }
 
@@ -989,7 +989,7 @@ export default {
 
 .chart-card-header .btn:hover {
   transform: translateY(-2px);
-  box-shadow: 0 4px 8px rgba(139, 92, 246, 0.2);
+  box-shadow: 0 4px 8px rgba(178, 34, 34, 0.2);
 }
 
 .chart-card-title {
@@ -1020,11 +1020,11 @@ export default {
 }
 
 .sales-dot {
-  background: #8B5CF6;
+  background: #B22222;
 }
 
 .purchases-dot {
-  background: #DDD6FE;
+  background: #FCA5A5;
 }
 
 .sent-dot {
@@ -1069,7 +1069,7 @@ export default {
 }
 
 .table-card-link {
-  color: #8B5CF6;
+  color: #B22222;
   font-size: 0.875rem;
   text-decoration: none;
   font-weight: 500;
@@ -1079,7 +1079,7 @@ export default {
 }
 
 .table-card-link:hover {
-  color: #6D28D9;
+  color: #8B0000;
   text-decoration: none;
 }
 
@@ -1252,7 +1252,7 @@ export default {
 .welcome-icon {
   width: 80px;
   height: 80px;
-  background: linear-gradient(135deg, #8B5CF6 0%, #A78BFA 100%);
+  background: linear-gradient(135deg, #B22222 0%, #EF4444 100%);
   border-radius: 50%;
   display: inline-flex;
   align-items: center;
